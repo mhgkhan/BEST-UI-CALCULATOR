@@ -53,14 +53,18 @@ body .calculator {
     border-radius: 4px;
 }
 
+.calculator p{text-align: center;
+    padding: 5px;
+    color: white;
+    font-family: monospace;
 
+}
 
 body .calculator .screen{
     padding: 5px;
     margin: 0px 0px;
     border-bottom: 1px dotted yellow;
 }
-
 
 
 
@@ -135,14 +139,24 @@ body .keyboard button{
     border: 1px solid #c8c859c7;
     cursor: pointer;
     box-shadow: 0px 0px 13px white;
-    box-shadow: -3px -2px 7px 1px #ffffff70;
+    box-shadow: -2px -2px 5px 1px #ffffff70;
     transition: .5s;
+}
+.eqlbtn{
+    width: 155px !important;
+    background: rgb(221, 221, 13) !important;
+    color: black !important;
+    /* border:1px solid black !important; */
+}
+.symbol{
+    background: white !important;
+    color: black !important;
+    /* border:1px solid black !important; */
 }
 
 
-
 body .keyboard button:hover{
-    box-shadow: -6px -2px 10px 3px #ffffffa3;
+    box-shadow: -4px -2px 10px 3px #ffffffa3;
 }
 
 
