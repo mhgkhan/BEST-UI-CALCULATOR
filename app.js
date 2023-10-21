@@ -1,3 +1,16 @@
+/* 
+
+**
+CODE BY MUHAMMAD HASNAIN GHAZNA (full stack web developer)
+follow 
+check our offical website : ghazna.netify.app
+
+*/
+
+
+
+
+
 
 // select all buttons from keyboard div 
 const buttons = document.querySelectorAll(".keyboard button")
